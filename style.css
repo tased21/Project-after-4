@@ -15,15 +15,41 @@ body{
     color: chocolate;
 }
 h1{
-    font-size: 60px;
+    font-size: 80px;
 }
 h2{
-    font-size: 40px;
+    font-size: 60px;
 }
 .half-width{
     width: 50%;
     padding-left: 5%;
     color: whitesmoke;
+}
+.half-width{
+    width: 70%;
+}
+.Menu{
+    background-image: url(/background/bg6.jpeg);
+    background-repeat: repeat-x;
+    background-size: contain;
+    display: flex;
+}
+h3{
+    color: rgb(209, 178, 105);
+    font-size: 40px;
+}
+ul{
+    list-style: disc;
+    font-size: 30px;
+    font-style: bold;
+    -moz-column-count: 2;
+    -moz-column-gap: 20px;
+    -webkit-column-count: 2;
+    -webkit-column-gap: 20px;
+    column-count: 2;
+    column-gap: 20px;
+    color: rgb(238, 238, 238);
+
 }
 .half-width{
     width: 70%;
