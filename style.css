@@ -25,17 +25,22 @@ h2{
     padding-left: 5%;
     color: whitesmoke;
 }
-.half-width{
+.half-width img{
     width: 70%;
 }
 .Menu{
-    background-image: url(/background/bg6.jpeg);
+    background-image: url(/background/bg2.jpeg);
     background-repeat: repeat-x;
     background-size: contain;
     display: flex;
+    height: 500px;
+    z-index: 1;
+}
+menu{
+    z-index: 2;
 }
 h3{
-    color: rgb(209, 178, 105);
+    color: rgb(15, 14, 14);
     font-size: 40px;
 }
 ul{
@@ -48,9 +53,20 @@ ul{
     -webkit-column-gap: 20px;
     column-count: 2;
     column-gap: 20px;
-    color: rgb(238, 238, 238);
+    color: whitesmoke;
 
 }
-.half-width{
-    width: 70%;
+.second{
+    width: 50%;
+    padding-right: 5%;
+}
+.second img{
+    width: 80%;
+}
+.order-button{
+    background-color: rgb(185, 35, 35);
+    color: rgb(248, 246, 246);
+    font-size: 20px;
+    padding: 10px 40px;
+    border-radius: 10px;
 }
