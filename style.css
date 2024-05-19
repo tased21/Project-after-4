@@ -70,3 +70,22 @@ ul{
     padding: 10px 40px;
     border-radius: 10px;
 }
+.About{
+    display: flex;
+}
+.our-story{
+   width: 40%;
+   margin-left: 5%;
+   margin-right: 5%;
+   padding-left: 20%;
+   padding-bottom: 20%;
+   border-radius: 10px;
+   text-align: justify;
+   box-shadow: 10px 10px 40px gray;
+}
+.our-story{
+    border-left: 7px solid orangered;   
+}
+.best{
+    border-left: 7px solid blue;   
+}
