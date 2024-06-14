@@ -28,16 +28,11 @@ h2{
 .half-width img{
     width: 70%;
 }
-.Menu{
-    background-image: url(/background/bg2.jpeg);
-    background-repeat: repeat-x;
-    background-size: contain;
-    display: flex;
-    height: 500px;
-    z-index: 1;
-}
-menu{
+
+.Menu-Section{
     z-index: 2;
+    display: flex;
+    padding-top: 5%;
 }
 h3{
     color: rgb(15, 14, 14);
@@ -56,12 +51,18 @@ ul{
     color: whitesmoke;
 
 }
-.second{
+.Menue{
     width: 50%;
     padding-right: 5%;
+    background-color: rgb(146, 81, 34);
+    padding-left: 5%;
+    box-shadow: 10px 10px 40px;
+    border-radius: 10px;
 }
-.second img{
+.secondimg{
     width: 80%;
+    align-items: center;
+    padding-left: 5%;
 }
 .order-button{
     background-color: rgb(185, 35, 35);
@@ -70,10 +71,6 @@ ul{
     padding: 10px 40px;
     border-radius: 10px;
 }
-.About{
-    background-image: url(/background/bg2.jpeg);
-    
-}
     
 .flexible{
     display: flex;
@@ -81,7 +78,7 @@ ul{
 }
 .about-us{
     font-size: 45;
-color: white;
+color: rgb(165, 42, 42);
 }
 .best{
     display: inline;
@@ -114,4 +111,5 @@ footer{
     text-align: center;
     color: black;
     font-weight: bold;
+    padding-top: 3%;
 }
